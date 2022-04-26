@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>vntgfcrse</title>
+      <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .body
+        {
+          background-color: #F5F5F5;
+        }
+        nav
+        {
+          background-image: url("cover.jpg");
+          background-size: cover;
+          height: 800px;
+        }
+        center
+        {
+          width:75%;
+          margin: 0 auto;
+        }
+        .nav
+        {
+          width:100%;
+          height: 60px;
+          display: flex;
+          padding: 2% 6%;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .nav-links
+        {
+          flex: 1;
+          text-align:right;
+          font-family: "Hind Madurai", sans-serif;
+        }
+        .nav-links ul li{
+            float: left;
+            list-style: none;
+            display: inline-block;
+            padding: 8px 12px;
+            position: relative;
+        }
+        .nav-links ul li a
+        {
+            display: block;
+            background-color:#ebf1e7;
+            color: #198754;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            padding: 14px 15px;
+            border-radius: 4px 4px 4px 4px;
+        }
+        .nav-links ul li ul
+        {
+            display: none;
+            position: absolute;
+            padding: 5px;
+        }
+        .nav-links ul li:hover ul
+        {
+            display: block;
+        }
+
+        .nav-links ul li ul li a
+        {
+            padding: 1px 14px;
+        }
+        .nav-links ul li ul li a:hover
+        {
+            background-color: #96b481;
+        }
+      </style>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Orelega+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div>
+        <center><img src="betterlogo.jpg" alt="logo" width:"180px" height="133px"></center>
+      </div>
+      <div = "center">
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a>PORTFOLIO</a>
+              <ul>
+                <li><a href="Ashley.html">ASHLEY</a></li>
+                <li><a href="Cheska.html">CHESKA</a></li>
+                <li><a href="Nick.html">NICK</a></li>
+                <li><a href="film.html">FILM</a></a></li>
+              </ul>
+            </li>
+            <li><a href="paragraphs.html">ABOUT ME</a></li>
+            <li><a href="contact.html">CONTACT ME</a></li>
+            <li><a href="https://www.instagram.com/vntgfcrse">INSTAGRAM</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
+
